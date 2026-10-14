@@ -1,0 +1,57 @@
+*{
+margin: 0;
+box-sizing: border-box;
+}
+.conteiner{
+    margin: 0 auto;
+max-width: 1200px;
+width: 100%;
+}
+.box{
+justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+}
+.game_tu_guitar{
+
+    padding: 50px;
+display: flex;
+justify-content: space-around;
+
+flex-direction: row-reverse;
+}
+.text_to_gitar{
+margin-left: 10px;
+}
+.poi{
+margin-left: 10px;
+}
+.photo{
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: row-reverse;
+
+}
+.nature{
+width: 100%;
+max-width: 700px;
+object-fit: cover;
+border-radius: 12px;
+}
+.lop{
+border-radius: 12px;
+}
+.text_photo{
+margin-right: 10px;
+}
+.text_nature{
+margin-right: 8px;
+font-size: 10px;
+}
+h3{
+position: relative;
+font-size: 20px;
+}
