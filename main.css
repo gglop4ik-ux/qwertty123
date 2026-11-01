@@ -1,57 +1,166 @@
-*{
-margin: 0;
-box-sizing: border-box;
+* {
+  margin: 0;
+  box-sizing: border-box;
 }
-.conteiner{
-    margin: 0 auto;
-max-width: 1200px;
-width: 100%;
+.home-nav {
+  background-color: #131129;
 }
-.box{
-justify-content: center;
-    display: flex;
-    margin: 0 auto;
-    flex-direction: column;
-    align-items: center;
+.home {
+  margin-top: 0px;
+  width: 100vw;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
 }
-.game_tu_guitar{
+.search {
+  border-radius: 5px;
+  border: none;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #1d1932;
+  background-image: url(./Search.png);
+}
+.avatar {
+  border-radius: 20px;
+  width: 43px;
+  height: 43px;
+  background-color: rgb(224, 101, 101);
+}
+.asd {
+  align-items: center;
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+}
+.bell {
+  border: none;
+  background-color: #1d1932;
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(./bell.png);
+  width: 16px;
+  height: 18px;
+}
+.mode {
+  border: none;
+  background-color: #1d1932;
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 19px;
+  height: 19px;
+  background-image: url(./mode.png);
+  color: black;
+}
+.nav {
+  background-color: #131129;
+  margin-top: 0px;
+  width: 80px;
+  height: 100vh;
+}
+.wrapper {
+  height: 100%;
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
 
-    padding: 50px;
-display: flex;
-justify-content: space-around;
+  padding-left: 25px;
+  padding-right: 25px;
+  display: flex;
 
-flex-direction: row-reverse;
+  flex-direction: column;
 }
-.text_to_gitar{
-margin-left: 10px;
+.logo {
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 30px;
+  border: none;
+  background-color: #1d1932;
+  background-image: url(./Logo\ \(1\).png);
+  width: 30px;
+  height: 30px;
 }
-.poi{
-margin-left: 10px;
+.menu {
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 49px;
+  border: none;
+  background-color: #1d1932;
+  width: 19px;
+  height: 22px;
+  background-image: url(./DashBoard.png);
 }
-.photo{
-display: flex;
-justify-content: space-between;
-align-items: center;
-flex-direction: row-reverse;
-
+.clipbord {
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 49px;
+  border: none;
+  background-color: #1d1932;
+  width: 19px;
+  height: 19px;
+  background-image: url(./bid.png);
 }
-.nature{
-width: 100%;
-max-width: 700px;
-object-fit: cover;
-border-radius: 12px;
+.saved {
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 49px;
+  border: none;
+  background-color: #1d1932;
+  height: 16.74px;
+  width: 19px;
+  background-image: url(./heart.png);
 }
-.lop{
-border-radius: 12px;
+.saved2 {
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 49px;
+  border: none;
+  background-color: #1d1932;
+  width: 22px;
+  height: 22px;
+  background-image: url(./Collection.png);
 }
-.text_photo{
-margin-right: 10px;
+.account {
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 49px;
+  border: none;
+  background-color: #1d1932;
+  width: 19px;
+  height: 22px;
+  background-image: url(./Profile.png);
 }
-.text_nature{
-margin-right: 8px;
-font-size: 10px;
+.setting {
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 49px;
+  border: none;
+  background-color: #1d1932;
+  width: 19px;
+  height: 19px;
+  background-image: url(./setting.png);
 }
-h3{
-position: relative;
-font-size: 20px;
+.out {
+  margin-top: auto;
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  display: flex;
+  justify-content: center;
+  background-color: #1d1932;
+  width: 19px;
+  height: 22px;
+  background-image: url(./sign-out.png);
 }
