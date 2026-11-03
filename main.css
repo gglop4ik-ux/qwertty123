@@ -15,10 +15,11 @@
   flex-direction: row;
 }
 .search {
+  text-align: center;
   border-radius: 5px;
   border: none;
   background-size: contain;
-  background-position: center;
+  background-position: start;
   background-repeat: no-repeat;
   background-color: #1d1932;
   background-image: url(./Search.png);
@@ -57,12 +58,14 @@
   color: black;
 }
 .nav {
-  background-color: #131129;
-  margin-top: 0px;
+  position: absolute;
+  background-color: #1d1932;
+  margin-top: -50px;
   width: 80px;
   height: 100vh;
 }
 .wrapper {
+  margin-top: -50px;
   height: 100%;
   background-size: auto;
   background-position: center;
@@ -163,4 +166,54 @@
   width: 19px;
   height: 22px;
   background-image: url(./sign-out.png);
+}
+.shop {
+  margin-top: 20px;
+  margin-left: 150px;
+  display: flex;
+  height: 228px;
+  width: 595px;
+  border-radius: 5px;
+  background-color: #131129;
+}
+body {
+  background-color: #131129;
+}
+.buy_games {
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #48349b;
+}
+
+.text_shop {
+  color: white;
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 286px;
+  height: 40px;
+}
+.b1 {
+  color: white;
+  width: 133px;
+  height: 40px;
+  border-radius: 3px;
+  border: none;
+  background-color: #6f4ff2;
+}
+.b2 {
+  color: white;
+  height: 40px;
+  width: 133px;
+  border-radius: 3px;
+  border: none;
+  background-color: #dc3546;
+}
+.block_buy {
+  width: 595px;
+  height: 227px;
+  display: flex;
 }
